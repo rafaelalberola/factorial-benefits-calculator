@@ -6070,4 +6070,11 @@ section.barriga.abajo {
 .simulador-container {
     padding: 0 1rem 12rem;
     }
+.show-sm {
+    display: block;
+}
+}
+
+.show-sm {
+    display: none;
 }

@@ -6088,3 +6088,8 @@ section {
 .show-sm {
     display: none;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }

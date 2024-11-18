@@ -6067,6 +6067,9 @@ section.barriga.abajo {
 }
 
 @media (max-width: 550px) {
+section {
+    padding: 5rem 0;
+}
 .simulador-container {
     padding: 0 1rem 12rem;
     margin-top: 3rem !important;

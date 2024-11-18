@@ -6073,6 +6073,12 @@ section.barriga.abajo {
 .show-sm {
     display: block;
 }
+.section-title {
+    font-size: 26px;    
+}
+.section-subtitle {
+    font-size: 18px;    
+}
 }
 
 .show-sm {

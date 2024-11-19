@@ -6069,6 +6069,9 @@ section.barriga.abajo {
 }
 
 @media (max-width: 550px) {
+.simulador .input-simulador {
+    justify-content: center;
+}
 #calculator {
     padding: 2rem 0; 
 }

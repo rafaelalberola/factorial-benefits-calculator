@@ -6069,6 +6069,9 @@ section.barriga.abajo {
 }
 
 @media (max-width: 550px) {
+.simulador .input-rt {
+    flex: 0 0 calc(100%);
+}
 .simulador .input-simulador {
     justify-content: center;
 }

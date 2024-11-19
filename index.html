@@ -429,11 +429,14 @@
         </script>
   
       <!-- Loading Spinner -->
-      <script>
+        <script>
           document.addEventListener("DOMContentLoaded", function () {
-              document.body.classList.remove("loading"); // Remove the loading class
-              const spinner = document.querySelector('.spinner');
-              if (spinner) spinner.style.display = 'none'; // Hide the spinner
+              // Add a delay before hiding the spinner
+              setTimeout(function () {
+                  document.body.classList.remove("loading"); // Remove loading class
+                  const spinner = document.querySelector('.spinner');
+                  if (spinner) spinner.style.display = 'none'; // Hide spinner
+              }, 2000); // Adjust the delay (in milliseconds) to control spinner duration
           });
       </script>
       

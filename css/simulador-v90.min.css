@@ -460,7 +460,8 @@ dfn {
 
 h1 {
     font-size: 2em;
-    margin: .67em 0
+    margin: .67em 0;
+    line-height: 1.1;
 }
 
 mark {
@@ -2419,7 +2420,7 @@ img.lazy.oculto {
 .simulador .input-rt {
     background: #fff;
     display: block;
-    border-radius: 12px
+    border-radius: 16px
 }
 
 .card {
@@ -6071,7 +6072,7 @@ section {
     padding: 5rem 0;
 }
 .simulador-container {
-    padding: 0 1rem 12rem;
+    padding: 0 1rem 16rem;
     margin-top: 3rem !important;
     }
 .show-sm {

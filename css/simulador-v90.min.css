@@ -4269,8 +4269,7 @@ section {
     text-align: left;
     position: relative;
     letter-spacing: -.01em;
-    max-width: 500px
-    margin-bottom: 0px;
+    max-width: 500px;
 }
 
 @media (min-width:750px) {
@@ -6080,6 +6079,9 @@ section.barriga.abajo {
 }
 section {
     padding: 5rem 0;
+}
+.section-heading {
+    margin-bottom: 0;
 }
 .simulador-container {
     padding: 0 1rem 16rem;

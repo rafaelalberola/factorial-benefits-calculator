@@ -6069,6 +6069,9 @@ section.barriga.abajo {
 }
 
 @media (max-width: 550px) {
+#calcualtor {
+    padding: 2rem 0; 
+}
 section {
     padding: 5rem 0;
 }
